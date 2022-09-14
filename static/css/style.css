@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    font-size: xx-large;
+    color: blueviolet;
+    margin: 1em;
+}
+.tablero{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.color1{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+.color2{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+}
